@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="goldenrod">#FDCB6E</color>
+    <color name="wild_sand">#F4F4F4</color>
+    <color name="pot_pourri">#F4E3E3</color>
+    <color name="charade">#2F3542</color>
+    <color name="charade_transparent">#9A2F3542</color>
+    <color name="wild_watermelon">#FF6B81</color>
+
+    <color name="black">#FF000000</color>
+    <color name="transparent_black">#74000000</color>
+    <color name="light_gray">#B5EDEDED</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#F81100</color>
+</resources>

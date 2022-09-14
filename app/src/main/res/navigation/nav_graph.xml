@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.cat.ui.login.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_catsFragment"
+            app:destination="@id/catsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/catsFragment"
+        android:name="com.example.cat.ui.cats.CatsFragment"
+        android:label="CatsFragment"
+        tools:layout="@layout/fragment_cats">
+        <action
+            android:id="@+id/action_catsFragment_to_catDetailFragment"
+            app:destination="@id/catDetailFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/catDetailFragment"
+        android:name="com.example.cat.ui.catdetails.CatDetailsFragment"
+        android:label="CatDetailFragment"
+        tools:layout="@layout/fragment_cat_details">
+        <argument
+            app:argType="com.example.cat.models.CatModel"
+            android:name="cat"/>
+    </fragment>
+</navigation>

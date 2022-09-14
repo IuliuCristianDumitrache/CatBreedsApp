@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:transitionName="@string/root_transition">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/btn_close"
+            android:layout_width="@dimen/button_dimens"
+            android:layout_height="@dimen/button_dimens"
+            android:layout_marginTop="@dimen/smaller_regular"
+            android:layout_marginEnd="@dimen/smaller_regular"
+            android:background="@color/pot_pourri"
+            android:src="@drawable/ic_close"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/image"
+            android:layout_width="@dimen/big_image"
+            android:layout_height="@dimen/big_image"
+            android:layout_marginTop="@dimen/large"
+            android:layout_marginBottom="@dimen/extra_small"
+            android:scaleType="fitCenter"
+            android:transitionName="@string/image_transition"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/lessRoundedImage" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/regular"
+            android:layout_marginTop="@dimen/small"
+            android:layout_marginEnd="@dimen/regular"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textColor="@color/charade"
+            android:textSize="@dimen/text_extra_extra_large"
+            android:transitionName="@string/name_transition"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/image"
+            tools:text="Cat Name" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            style="@style/MediumDescriptionTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/regular"
+            android:layout_marginEnd="@dimen/regular"
+            android:gravity="center"
+            android:transitionName="@string/description_transition"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_name"
+            tools:text="Good cat" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/regular"
+            android:layout_marginTop="@dimen/smaller_regular"
+            android:layout_marginEnd="@dimen/regular"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_description">
+
+            <TextView
+                android:id="@+id/country_code"
+                style="@style/MediumDescriptionTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/smaller_regular"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/country" />
+
+            <TextView
+                android:id="@+id/tv_country_code"
+                style="@style/GrayBackgroundTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_shape"
+                tools:text="Ro" />
+
+            <TextView
+                android:id="@+id/label_temperament"
+                style="@style/MediumDescriptionTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/smaller_regular"
+                android:layout_marginTop="@dimen/smaller_regular"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/temperament" />
+
+            <TextView
+                android:id="@+id/tv_temperament"
+                style="@style/GrayBackgroundTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_shape"
+                tools:text="Wild" />
+
+            <TextView
+                android:id="@+id/label_link"
+                style="@style/MediumDescriptionTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/smaller_regular"
+                android:layout_marginTop="@dimen/smaller_regular"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/wikipedia_link" />
+
+            <TextView
+                android:id="@+id/tv_link"
+                style="@style/GrayBackgroundTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:background="@drawable/rectangle_shape"
+                tools:text="www.wikipedia.com" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

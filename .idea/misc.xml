@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_baseline_search.xml" value="0.225" />
+        <entry key="app/src/main/res/drawable/ic_close.xml" value="0.1885" />
+        <entry key="app/src/main/res/drawable/pot_pourri_top_left_radius.xml" value="0.225" />
+        <entry key="app/src/main/res/drawable/pot_pourri_top_right_radius.xml" value="0.225" />
+        <entry key="app/src/main/res/drawable/rectangle_shape.xml" value="0.1885" />
+        <entry key="app/src/main/res/drawable/watermelon_background_radius_edges_left.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/cat_list_item.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/empty_list_item.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/fragment_cat_details.xml" value="0.15751546223958335" />
+        <entry key="app/src/main/res/layout/fragment_cats.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.32457885742187503" />
+        <entry key="app/src/main/res/layout/layout_alert_dialog_edit_text.xml" value="0.17760416666666667" />
+        <entry key="app/src/main/res/layout/main_activity.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/view_no_internet.xml" value="0.17916666666666667" />
+        <entry key="app/src/main/res/menu/menu_cat.xml" value="0.23541666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

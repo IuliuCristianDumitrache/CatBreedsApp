@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DividerViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/divider_height</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="ButtonHeight45dp">
+        <item name="android:layout_height">@dimen/button_height</item>
+    </style>
+
+    <style name="ButtonHeight45dp.CharadeRightEdge">
+        <item name="android:background">@drawable/charade_background_radius_edges_right</item>
+    </style>
+
+    <style name="ButtonHeight45dp.CharadeAllEdges">
+        <item name="android:background">@drawable/charade_background_full_radius</item>
+    </style>
+
+    <style name="ButtonHeight45dp.WatermelonLeftEdge">
+        <item name="android:background">@drawable/watermelon_background_radius_edges_left</item>
+    </style>
+
+    <style name="EditTextMaterialOutlined" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/charade</item>
+        <item name="boxStrokeErrorColor">@color/red</item>
+        <item name="android:textColorHint">@color/charade_transparent</item>
+        <item name="android:textColor">@color/charade</item>
+    </style>
+
+    <style name="roundedImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="lessRoundedImage">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10%</item>
+    </style>
+
+    <style name="MediumDescriptionTextStyle">
+        <item name="android:textSize">@dimen/text_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/charade</item>
+    </style>
+
+    <style name="GrayBackgroundTextStyle">
+        <item name="android:textSize">@dimen/text_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:paddingTop">@dimen/small</item>
+        <item name="android:paddingBottom">@dimen/small</item>
+        <item name="android:paddingStart">@dimen/smaller_regular</item>
+        <item name="android:paddingEnd">@dimen/smaller_regular</item>
+        <item name="android:layout_marginTop">@dimen/small</item>
+        <item name="android:textColor">@color/charade</item>
+    </style>
+
+    <style name="SmallDescriptionTextStyle">
+        <item name="android:textSize">@dimen/text_smaller_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/charade</item>
+    </style>
+
+    <style name="EditTextMaterialOutlinedLight" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/wild_sand</item>
+        <item name="strokeColor">@color/wild_sand</item>
+        <item name="boxStrokeErrorColor">@color/red</item>
+        <item name="android:textColorHint">@color/light_gray</item>
+        <item name="android:textColor">@color/wild_sand</item>
+    </style>
+</resources>

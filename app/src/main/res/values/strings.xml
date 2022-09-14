@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Cats Breed</string>
+    <string name="no_internet_error">No Internet Connection</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="an_error_has_occured">An error has occurred, please try again</string>
+    <string name="invalid_credentials">Email/Password must not be empty</string>
+    <string name="invalid_email">Invalid E-mail</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="login_label">login</string>
+    <string name="hi_human">hi human.</string>
+    <string name="enter_your_email_address">Enter your email address</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="human">human,</string>
+    <string name="you_are_almost_there">you are almost there</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="lbl_recover">Recover password</string>
+    <string name="lbl_cancel">Cancel</string>
+    <string name="lbl_ok">Ok</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="name_transition">name_transition</string>
+    <string name="country">Country</string>
+    <string name="temperament">Temperament</string>
+    <string name="wikipedia_link">Wikipedia Link</string>
+    <string name="image_transition">image_transition</string>
+    <string name="root_transition">root_transition</string>
+    <string name="description_transition">description_transition</string>
+    <string name="search">Search</string>
+    <string name="search_by">Search by country code or name</string>
+</resources>

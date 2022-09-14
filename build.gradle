@@ -1,0 +1,41 @@
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+
+    // Define versions in a single place
+    ext {
+        appCompatVersion = "1.2.0"
+        constraintLayoutVersion = "2.0.4"
+        coroutinesVersion = "1.3.9"
+        dataStoreVersion = "1.0.0"
+        espressoVersion = "3.3.0"
+        hiltVersion = "2.38.1"
+        hiltAndroidXVersion = "1.0.0-alpha03"
+        fragmentVersion = "1.4.1"
+        gradleVersion = "4.1.0"
+        junitVersion = "4.13.1"
+        kotlinVersion = "1.4.10"
+        ktxVersion = "1.3.2"
+        lifecycleVersion = "2.2.0"
+        materialVersion = "1.3.0-alpha03"
+        navigationVersion = "2.4.2"
+        roomVersion = "2.2.5"
+        testExtJunitVersion = "1.1.2"
+    }
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:$gradleVersion"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.0"
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$navigationVersion"
+        classpath "de.mannodermaus.gradle.plugins:android-junit5:1.8.2.1"
+        classpath "com.google.dagger:hilt-android-gradle-plugin:$hiltVersion"
+    }
+}

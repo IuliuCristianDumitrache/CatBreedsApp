@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="CatTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/wild_watermelon</item>
+        <item name="colorPrimaryDark">@color/goldenrod</item>
+        <item name="colorAccent">@color/wild_watermelon</item>
+        <item name="android:colorBackground">@color/pot_pourri</item>
+        <item name="android:statusBarColor">@color/wild_watermelon</item>
+        <item name="android:navigationBarColor">@color/pot_pourri</item>
+        <item name="colorError">@color/red</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+</resources>
