@@ -1,6 +1,6 @@
 # CatBreedsApp
 
-RxJava, DI, Jetpack, Shared element transition. clean MVVM architecture, Retrofit
+RxJava, Room, DI (Hilt), Jetpack, Shared element transition. clean MVVM architecture, Retrofit
 
 <img src="https://github.com/IuliuCristianDumitrache/CatBreedsApp/blob/master/catsgif.gif" width="400" height="790">
 
