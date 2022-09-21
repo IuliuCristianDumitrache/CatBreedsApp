@@ -21,4 +21,12 @@ class CatViewHolder(private val binding: CatListItemBinding) : RecyclerView.View
             listener?.onCatItemClicked(binding, cat)
         }
     }
+
+    fun updateName(name: String) {
+        binding.tvName.text = name
+    }
+
+    fun updateDescription(description: String) {
+        binding.tvDescription.text = description
+    }
 }

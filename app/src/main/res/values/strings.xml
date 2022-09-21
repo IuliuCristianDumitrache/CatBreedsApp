@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Cats Breed</string>
+    <string name="app_name">Cat Breeds</string>
     <string name="no_internet_error">No Internet Connection</string>
     <string name="something_went_wrong">Something went wrong</string>
     <string name="an_error_has_occured">An error has occurred, please try again</string>
